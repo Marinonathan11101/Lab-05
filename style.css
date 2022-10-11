@@ -1,0 +1,54 @@
+@import url(./reset.css);
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+
+*{
+   /*outline: 1px dashed #ccc; */
+ 
+ }
+ 
+ .main-header-titles h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30pt;
+    color: red;
+    text-align: center;
+    
+}
+
+.main-header-titles h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+figure > img{
+    float: left;
+    margin: 0 2em;
+    width: 150px;
+    
+
+}
+.paragraphs{
+    color: orange;
+    background-color: black;
+    font-size: 15pt;
+}
+
+
+.paragraphs :nth-child(2){
+    color: red;
+}
+
+.clearfix{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    color: red;
+    border-radius: 20px;
+}
+
